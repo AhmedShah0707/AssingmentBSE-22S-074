@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .hero, section {
+        padding: 10px;
+    }
+}
